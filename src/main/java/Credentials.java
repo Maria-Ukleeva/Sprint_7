@@ -1,16 +1,17 @@
-public class User {
+public class Credentials {
 
     private String login;
     private String password;
 
-    public User(String login, String password) {
+    public Credentials(String login, String password) {
         this.login = login;
         this.password = password;
     }
 
 
-    public User() {
+    public Credentials() {
     }
+
 
     public String getLogin() {
         return login;
